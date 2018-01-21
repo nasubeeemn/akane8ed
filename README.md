@@ -1,7 +1,7 @@
 # akane8ed
 
 TVアニメ「月がきれい」第８話のエンディングに流れるLINEの会話を模したSlack Botです。  
-Botが茜役です。
+Botが茜役です。  
 Node.js v6.10.0にて動作検証
 
 * SlackにWorkspaceを作ります。
@@ -11,7 +11,7 @@ Node.js v6.10.0にて動作検証
 以下、コンソールで
 * npm install
 * env HUBOT_SLACK_TOKEN=xoxb-16455131522-XXXXXXXXXXXXXXXXXXXX bin/hubot --adapter slack
-* （上記にてSLACK_TOKENをセットします）
+* （上記にてSLACK_TOKENをセットします）  
 でHubotに接続できます。
 
 会話は「...」と送信することから始まります。
